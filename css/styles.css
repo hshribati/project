@@ -62,6 +62,7 @@ h1 {
 .image-content {
     display: flex;
     align-items: center; /* Vertically center the items */
+    justify-content: center; /* Horizontally center the items */
     margin-bottom: 2rem;
 }
 
