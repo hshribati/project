@@ -14,14 +14,6 @@ body {
     color: #333; /* Dark text color for better readability */
 }
 
-/* Centering the image */
-.center-image {
-    display: block; /* Makes the image a block element */
-    margin: 1.5rem auto; /* Centers the image horizontally */
-    max-width: 100%; /* Ensures the image doesn't overflow */
-    height: auto; /* Maintains aspect ratio */
-}
-
 /* Navigation Styles */
 nav {
     background-color: rgba(0, 123, 255, 0.9); /* Slightly more opaque for better contrast */
@@ -71,6 +63,29 @@ section {
     padding: 1.5rem; /* Padding for better spacing */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Image and Content Layout */
+.image-content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 2rem; /* Space below the section */
+}
+
+.center-image {
+    display: block; /* Keeps the image a block element */
+    margin-right: 1.5rem; /* Space between image and text */
+    max-width: 150px; /* Set a max width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-content {
+    max-width: 600px; /* Control the width of the text content */
+}
+
+/* Optional: Styles for paragraphs within the text content */
+.text-content p {
+    margin-bottom: 1rem; /* Space between paragraphs */
 }
 
 /* List Styles */
